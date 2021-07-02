@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.nav-link {
+    color: white !important;
+}
+.navbar-nav a:hover {
+    color:#55ACEE !important;
+    font-weight:500;
+}
+
+header {
+    position: relative;
+    background-color: black;
+    height: 100vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+}  
+header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+
+.card-body {
+    background-color: #ced4da;
+}
+.card-body a {
+    color: black;
+}
+.card-body a:hover {
+    color: #2a9d8f !important;
+    text-decoration: none;
+}
+.card-title{
+    font-size: 16pt;
+    text-shadow: 3px 2px 1px paleturquoise;
+    text-align: center;
+}
+.card-text {
+    text-align: justify;
+    padding: 5px;
+    height: 70px;
+    font-size: 10pt;
+}
+@media screen and (max-width: 600px) {
+    audio {   
+      width: 100%;
+    }
+}
+
+
+.gallery,.about,.contact {
+    padding: 100px 0px;
+    background-color: black;
+}
+.card-deck {
+    margin: 20px;
+    background-color: black;
+}
+.section-title h2 {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    border-bottom: 5px solid darkred;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+
+.section-title p {
+    color: #e8e8e8;
+    margin-bottom: 30px;
+}
+.contact input,
+.contact textarea {
+    background: #fafafa;
+}
+.contact textarea {
+    min-height: 188px;
+    max-width: 100%;
+}
+.contact .map {
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+.cont {
+    color: white;
+    font-size: 9pt;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+.fa:hover {
+    text-decoration: none;
+}  
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-instagram {
+    background: #ea4c89;
+    color: white;
+}
+.fa-whatsapp {
+    background: #a4c639;
+    color: white;
+}
+
+.footer {
+    padding: 25px;
+    text-align: center;
+}
+@media screen and (max-width: 600px) {
+    .footer {   
+      width: 100%;
+    }
+}
